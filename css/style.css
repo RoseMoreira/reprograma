@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Haleway, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao {
+    background-color: white;
+    color: rgb(83, 8, 83);
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.banner {
+    background: url(../perfil88.jpg);
+    background-size: center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_conteudo {
+    color: white;
+    text-align: center;
+}
+
+.banner_titulo {
+    font-size: 42px;
+}
+
+.banner_titulo:hover {
+    background-color: purple;
+}
+
+.banner__link:hover {
+    background-color: plum;
+}
+
+.section {
+    margin: 5% 10%;
+    line-height: 30px;
+}
+
+.section_titulo {
+    color: rgb(133, 122, 122);
+    font-size: 36px;
+}
+
+.sobre {
+    display: flex;
+    align-items: flex-end;
+}
+
+.sobre_texto {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.sobre_texto-principal {
+    font-size: 18px;
+}
+
+.sobre_cv {
+    border: 1px solid purple;
+}
+
+.sobre_cv:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    margin: 5% 15%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais__link {
+    margin: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(75, 19, 75);
+}
+
+.redes-sociais__link:hover {
+    transform: scale(1.2);
+    transition: -5s;
+}
+
+.redes-sociais__link img {
+    width: auto;
+    height: 70px;
+    padding-top: 25px;
+}
+
+footer p {
+    text-align: center;
+}
