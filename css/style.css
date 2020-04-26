@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Haleway, Helvetica, sans-serif;
+    font-family: Raleway, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -21,25 +21,36 @@ a {
 }
 
 .banner {
-    background: url(../perfil88.jpg);
-    background-size: center;
+    background: url(../banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
     height: 420px;
+    opacity: 0.8;
+    width: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .banner_conteudo {
     color: white;
     text-align: center;
+    font-weight: bolder;
 }
 
 .banner_titulo {
-    font-size: 42px;
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 .banner_titulo:hover {
     background-color: purple;
+}
+
+.banner_subtitulo {
+    color: purple;
+    text-transform: uppercase;
+    font-size: 24px;
 }
 
 .banner__link:hover {
@@ -58,7 +69,11 @@ a {
 
 .sobre {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
+}
+
+.sobre-habilidades {
+    padding-left: 5%;
 }
 
 .sobre_texto {
@@ -86,6 +101,7 @@ a {
 
 .redes-sociais {
     display: flex;
+    justify-content: space-around;
 }
 
 .redes-sociais__link {
@@ -109,4 +125,13 @@ a {
 
 footer p {
     text-align: center;
+}
+
+.zap {
+    padding: 20px;
+}
+
+.voltar {
+    display: flex;
+    justify-content: flex-end;
 }
